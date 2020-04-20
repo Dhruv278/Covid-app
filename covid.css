@@ -1,0 +1,41 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 150px 1fr 300px;
+    background-color:  rgb(60, 60, 60);
+    color: white;
+}
+.thead{
+    position: sticky;
+    top:30px;
+}
+h4{
+    font-size: 20px;
+}
+#ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    text-decoration: none;
+list-style: none;    
+}
+a{
+    margin: 4px 30px;
+    font-size: 22px;
+}
+#searchbar{
+    display: flex;
+}
+
+#sbar{
+    margin: 15px 4px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.btn{
+    margin: 15px 4px;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+}
